@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Wed May 05 16:18:46 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : Stopwatch
+Top-level Entity Name : Stopwatch
+Family : MAX 10
+Total logic elements : 1,663
+    Total combinational functions : 1,661
+    Dedicated logic registers : 71
+Total registers : 71
+Total pins : 53
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

@@ -1,0 +1,16 @@
+module Stopwatch(
+	input CLK_50,
+	input reset_n,
+	input start_stop,
+	input hold,
+	output [7:0] ten_mins_seven_seg,
+	output [7:0] one_min_seven_seg,
+	output [7:0] ten_secs_seven_seg,
+	output [7:0] one_sec_seven_seg,
+	output [7:0] tenths_seven_seg,
+	output [7:0] hundredths_seven_seg,
+	output overflow_flag
+);
+
+
+endmodule

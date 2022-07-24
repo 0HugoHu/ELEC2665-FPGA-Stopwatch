@@ -1,0 +1,14 @@
+module SevenSegEncoder(
+	input [6:0] stopwatch_unit_mins,
+	input [5:0] stopwatch_unit_secs,
+	input [6:0] stopwatch_unit_decs,
+	output [7:0] hex_10_mins,
+	output [7:0] hex_1_min,
+	output [7:0] hex_10_secs,
+	output [7:0] hex_1_sec,
+	output [7:0] hex_hundredths,
+	output [7:0] hex_tenths
+);
+
+
+endmodule

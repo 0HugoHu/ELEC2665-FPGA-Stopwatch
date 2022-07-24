@@ -1,0 +1,13 @@
+module StopwatchLogic(
+	input CLK_100Hz,
+	input reset_n,
+	input start_stop,
+	input hold,
+	output [6:0] stopwatch_unit_mins,
+	output [5:0] stopwatch_unit_secs,
+	output [6:0] stopwatch_unit_decs,
+	output reg stopwatch_overflow
+);
+
+endmodule
+	

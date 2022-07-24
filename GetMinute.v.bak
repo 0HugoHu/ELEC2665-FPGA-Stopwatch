@@ -1,0 +1,5 @@
+module GetMinute(
+
+	input [23:0] cnt,
+	
+	output 

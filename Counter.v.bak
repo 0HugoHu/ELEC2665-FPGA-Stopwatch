@@ -1,0 +1,14 @@
+module Counter(
+
+	input CLK_100Hz,
+	
+	input reset_n,
+	
+	input start_stop,
+	
+	input hold,
+	
+	output [23:0] cnt
+	
+);
+

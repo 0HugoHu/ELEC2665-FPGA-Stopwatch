@@ -1,0 +1,11 @@
+module GetDecs(
+
+	input [23:0] cnt,
+	
+	output [6:0] stopwatch_unit_decs
+	
+);
+
+
+
+endmodule;

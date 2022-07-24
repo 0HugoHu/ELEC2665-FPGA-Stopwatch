@@ -1,0 +1,11 @@
+module GetSecond(
+
+	input [23:0] cnt,
+	
+	output [5:0] stopwatch_unit_secs
+	
+);
+
+
+
+endmodule;

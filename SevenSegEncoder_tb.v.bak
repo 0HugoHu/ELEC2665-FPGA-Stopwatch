@@ -1,0 +1,98 @@
+`timescale 10 ms / 1 ms
+
+module Clock_tb;
+
+	reg clk;
+	
+	reg reset;
+	
+	reg start_stop;
+	
+	reg hold;
+	
+	wire [7:0] ten_mins_seven_seg;
+	
+	wire [7:0] one_min_seven_seg;
+		
+	wire [7:0] ten_secs_seven_seg;
+		
+	wire [7:0] one_sec_seven_seg;
+		
+	wire [7:0] tenths_seven_seg;
+		
+	wire [7:0] hundredths_seven_seg;
+		
+	wire overflow_flag;
+	
+	always begin
+	
+		#10;
+		
+		clk <= ~clk;
+		
+	end
+	
+	initial begin
+	
+		clk <= 1'b0;
+		
+		reset <= 1'b0;
+		
+		start_stop <= 1'b0;
+		
+		hold <= 1'b0;
+		
+		#10
+		
+		start_stop <= 1'b1;
+		
+		#1000 // after 1s
+		
+		hold <= 1'b1;
+		
+		#100
+		
+		hold <= 1'b0;
+		
+		#1000
+		
+		start_stop <= 1'b0;
+		
+		#100
+		
+		reset <= 1'b1;
+		
+		#100
+		
+		$stop;
+		
+	end
+	
+	
+	Stopwatch dut(
+	
+		clk,
+		
+		reset,
+		
+		start_stop,
+		
+		hold,
+	
+		ten_mins_seven_seg[7:0],
+		
+		one_min_seven_seg[7:0],
+		
+		ten_secs_seven_seg[7:0],
+		
+		one_sec_seven_seg[7:0],
+		
+		tenths_seven_seg[7:0],
+		
+		hundredths_seven_seg[7:0],
+		
+		overflow_flag
+		
+	);
+	
+endmodule

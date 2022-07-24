@@ -1,0 +1,196 @@
+# Reading pref.tcl
+# do Stopwatch_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying D:/Program/Intel/FPGA/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch {C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/BCDEncoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:57:51 on May 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch" C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/BCDEncoder.v 
+# -- Compiling module BCDEncoder
+# 
+# Top level modules:
+# 	BCDEncoder
+# End time: 13:57:51 on May 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch {C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/Stopwatch.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:57:51 on May 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch" C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/Stopwatch.v 
+# -- Compiling module Stopwatch
+# 
+# Top level modules:
+# 	Stopwatch
+# End time: 13:57:52 on May 05,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch {C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/ClockDivider50MHzTo100Hz.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:57:52 on May 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch" C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/ClockDivider50MHzTo100Hz.v 
+# -- Compiling module ClockDivider50MHzTo100Hz
+# 
+# Top level modules:
+# 	ClockDivider50MHzTo100Hz
+# End time: 13:57:52 on May 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch {C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/StopwatchLogic.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:57:52 on May 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch" C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/StopwatchLogic.v 
+# -- Compiling module StopwatchLogic
+# 
+# Top level modules:
+# 	StopwatchLogic
+# End time: 13:57:52 on May 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch {C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/SevenSegEncoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:57:52 on May 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch" C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/SevenSegEncoder.v 
+# -- Compiling module SevenSegEncoder
+# 
+# Top level modules:
+# 	SevenSegEncoder
+# End time: 13:57:52 on May 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch {C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/Counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:57:52 on May 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch" C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/Counter.v 
+# -- Compiling module Counter
+# 
+# Top level modules:
+# 	Counter
+# End time: 13:57:53 on May 05,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch {C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/GetMinute.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:57:53 on May 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch" C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/GetMinute.v 
+# -- Compiling module GetMinute
+# 
+# Top level modules:
+# 	GetMinute
+# End time: 13:57:53 on May 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch {C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/GetSecond.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:57:53 on May 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch" C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/GetSecond.v 
+# -- Compiling module GetSecond
+# 
+# Top level modules:
+# 	GetSecond
+# End time: 13:57:53 on May 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch {C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/GetDecs.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:57:53 on May 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch" C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/GetDecs.v 
+# -- Compiling module GetDecs
+# 
+# Top level modules:
+# 	GetDecs
+# End time: 13:57:53 on May 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch {C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/SevenSegDisplay.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:57:53 on May 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch" C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/SevenSegDisplay.v 
+# -- Compiling module SevenSegDisplay
+# 
+# Top level modules:
+# 	SevenSegDisplay
+# End time: 13:57:53 on May 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch {C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/StopwatchLogic_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:57:53 on May 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch" C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/StopwatchLogic_tb.v 
+# -- Compiling module StopwatchLogic_tb
+# 
+# Top level modules:
+# 	StopwatchLogic_tb
+# End time: 13:57:54 on May 05,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  StopwatchLogic_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" StopwatchLogic_tb 
+# Start time: 13:57:54 on May 05,2021
+# Loading work.StopwatchLogic_tb
+# Loading work.StopwatchLogic
+# Loading work.Counter
+# Loading work.GetDecs
+# Loading work.GetSecond
+# Loading work.GetMinute
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Passed test           1
+# Passed test           2
+# Passed test           3
+# Passed test           4
+# Passed test           5
+# Passed test           6
+# Passed test           7
+# Passed test           8
+# Passed test           9
+# Passed test          10
+# Passed test          11
+# Passed test          12
+# Passed test          13
+# Passed test          14
+# Passed test          15
+# Passed test          16
+# Passed test          17
+# Passed test          18
+# Passed test          19
+# Passed test          20
+# Passed test          21
+# Passed test          22
+# Passed test          23
+# Passed test          24
+# Passed test          25
+# Passed test          26
+# Passed test          27
+# Passed test          28
+# Passed test          29
+# Passed test          30
+# Passed test          31
+# Passed test          32
+# Passed test          33
+# Passed test          34
+# Passed test          35
+# Passed test          36
+# Passed test          37
+# Passed test          38
+# Passed test          39
+# Passed test          40
+# Passed test          41
+# Passed test          42
+# Passed test          43
+# Passed test          44
+# Passed test          45
+# Passed test          46
+# Passed test          47
+# Passed test          48
+# Passed test          49
+# Passed test          50
+# Passed overflow test
+# ** Note: $stop    : C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/StopwatchLogic_tb.v(89)
+#    Time: 1846809 ns  Iteration: 0  Instance: /StopwatchLogic_tb
+# Break in Module StopwatchLogic_tb at C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/StopwatchLogic_tb.v line 89
+# End time: 16:17:02 on May 05,2021, Elapsed time: 2:19:08
+# Errors: 0, Warnings: 0

@@ -1,0 +1,197 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ten_mins_seven_seg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ten_mins_seven_seg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ten_mins_seven_seg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ten_mins_seven_seg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ten_mins_seven_seg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ten_mins_seven_seg[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ten_mins_seven_seg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "one_min_seven_seg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "one_min_seven_seg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "one_min_seven_seg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "one_min_seven_seg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "one_min_seven_seg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "one_min_seven_seg[5]",
+					"strict" : false
+				},
+				{
+					"name" : "one_min_seven_seg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ten_secs_seven_seg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ten_secs_seven_seg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ten_secs_seven_seg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ten_secs_seven_seg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ten_secs_seven_seg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ten_secs_seven_seg[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ten_secs_seven_seg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "one_sec_seven_seg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "one_sec_seven_seg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "one_sec_seven_seg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "one_sec_seven_seg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "one_sec_seven_seg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "one_sec_seven_seg[5]",
+					"strict" : false
+				},
+				{
+					"name" : "one_sec_seven_seg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "tenths_seven_seg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "tenths_seven_seg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "tenths_seven_seg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "tenths_seven_seg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "tenths_seven_seg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "tenths_seven_seg[5]",
+					"strict" : false
+				},
+				{
+					"name" : "tenths_seven_seg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hundredths_seven_seg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hundredths_seven_seg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hundredths_seven_seg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hundredths_seven_seg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hundredths_seven_seg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hundredths_seven_seg[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hundredths_seven_seg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "overflow_flag",
+					"strict" : false
+				},
+				{
+					"name" : "reset_n",
+					"strict" : false
+				},
+				{
+					"name" : "hold",
+					"strict" : false
+				},
+				{
+					"name" : "CLK_50",
+					"strict" : false
+				},
+				{
+					"name" : "start_stop",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

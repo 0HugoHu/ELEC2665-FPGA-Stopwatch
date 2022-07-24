@@ -1,0 +1,286 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/lenovo/Desktop/Stopwatch/Stopwatch/simulation/modelsim
+vBCDEncoder
+!s110 1620194271
+!i10b 1
+!s100 [I92;YbDT?0eVQZS^TJXQ3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IQ@b;n<mFH=II@48]89]YD3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1620091012
+8C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/BCDEncoder.v
+FC:/Users/lenovo/Desktop/Stopwatch/Stopwatch/BCDEncoder.v
+!i122 0
+L0 1 37
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1620194271.000000
+!s107 C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/BCDEncoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch|C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/BCDEncoder.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch
+Z7 tCvgOpt 0
+n@b@c@d@encoder
+vClockDivider50MHzTo100Hz
+Z8 !s110 1620194272
+!i10b 1
+!s100 VEgU3^05fU^b01LoCk3Vd1
+R1
+I<Pkhn1Q7DQWM3C5N;BgOa2
+R2
+R0
+w1620186745
+8C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/ClockDivider50MHzTo100Hz.v
+FC:/Users/lenovo/Desktop/Stopwatch/Stopwatch/ClockDivider50MHzTo100Hz.v
+!i122 2
+L0 1 47
+R3
+r1
+!s85 0
+31
+Z9 !s108 1620194272.000000
+!s107 C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/ClockDivider50MHzTo100Hz.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch|C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/ClockDivider50MHzTo100Hz.v|
+!i113 1
+R5
+R6
+R7
+n@clock@divider50@m@hz@to100@hz
+vCounter
+Z10 !s110 1620194273
+!i10b 1
+!s100 LlmC30_m`;Ak1ENE7h4c[2
+R1
+I1J<dnOO@?=JDmEW0<iSX^0
+R2
+R0
+w1620186923
+8C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/Counter.v
+FC:/Users/lenovo/Desktop/Stopwatch/Stopwatch/Counter.v
+!i122 5
+L0 1 49
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/Counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch|C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/Counter.v|
+!i113 1
+R5
+R6
+R7
+n@counter
+vGetDecs
+R10
+!i10b 1
+!s100 cLEg7e;^gm?NdOYE76<<D1
+R1
+IYcmH0>1ARfH5;Z0z=5>k_1
+R2
+R0
+w1620098123
+8C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/GetDecs.v
+FC:/Users/lenovo/Desktop/Stopwatch/Stopwatch/GetDecs.v
+!i122 8
+L0 1 27
+R3
+r1
+!s85 0
+31
+Z11 !s108 1620194273.000000
+!s107 C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/GetDecs.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch|C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/GetDecs.v|
+!i113 1
+R5
+R6
+R7
+n@get@decs
+vGetMinute
+R10
+!i10b 1
+!s100 BPY;;;0_IMoa]h2mD1A7D3
+R1
+Icb]ePf647o@i9A4YhGDoU1
+R2
+R0
+w1620099059
+8C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/GetMinute.v
+FC:/Users/lenovo/Desktop/Stopwatch/Stopwatch/GetMinute.v
+!i122 6
+Z12 L0 1 29
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/GetMinute.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch|C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/GetMinute.v|
+!i113 1
+R5
+R6
+R7
+n@get@minute
+vGetSecond
+R10
+!i10b 1
+!s100 D@4FKYVNJTY`cz`AUMC3:2
+R1
+IFBn5iJJk=zYkNQz8JK]kS2
+R2
+R0
+w1620099047
+8C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/GetSecond.v
+FC:/Users/lenovo/Desktop/Stopwatch/Stopwatch/GetSecond.v
+!i122 7
+R12
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/GetSecond.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch|C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/GetSecond.v|
+!i113 1
+R5
+R6
+R7
+n@get@second
+vSevenSegDisplay
+R10
+!i10b 1
+!s100 YWF_[TiNVOZ3HP=jba1233
+R1
+IIMRQOg4:3]BDIHJF5Izjk1
+R2
+R0
+w1620097032
+8C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/SevenSegDisplay.v
+FC:/Users/lenovo/Desktop/Stopwatch/Stopwatch/SevenSegDisplay.v
+!i122 9
+L0 1 39
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/SevenSegDisplay.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch|C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/SevenSegDisplay.v|
+!i113 1
+R5
+R6
+R7
+n@seven@seg@display
+vSevenSegEncoder
+R8
+!i10b 1
+!s100 @T0I4`iJXomcKTJl=eO=[0
+R1
+I694G5nBNICKW?gdU^RH2W0
+R2
+R0
+w1620096630
+8C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/SevenSegEncoder.v
+FC:/Users/lenovo/Desktop/Stopwatch/Stopwatch/SevenSegEncoder.v
+!i122 4
+L0 1 112
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/SevenSegEncoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch|C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/SevenSegEncoder.v|
+!i113 1
+R5
+R6
+R7
+n@seven@seg@encoder
+vStopwatch
+R8
+!i10b 1
+!s100 gIGh_kY;aF@SOl3b5nbXP1
+R1
+IVD2DJKYQf1?>4hkEZ?X7E3
+R2
+R0
+w1620124935
+8C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/Stopwatch.v
+FC:/Users/lenovo/Desktop/Stopwatch/Stopwatch/Stopwatch.v
+!i122 1
+L0 1 95
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/Stopwatch.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch|C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/Stopwatch.v|
+!i113 1
+R5
+R6
+R7
+n@stopwatch
+vStopwatchLogic
+R8
+!i10b 1
+!s100 BGXZEMcR;SzF7MXcB<JDX2
+R1
+IL89JDJVHO424FfQfhnTJO2
+R2
+R0
+w1620186887
+8C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/StopwatchLogic.v
+FC:/Users/lenovo/Desktop/Stopwatch/Stopwatch/StopwatchLogic.v
+!i122 3
+L0 1 115
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/StopwatchLogic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch|C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/StopwatchLogic.v|
+!i113 1
+R5
+R6
+R7
+n@stopwatch@logic
+vStopwatchLogic_tb
+!s110 1620194274
+!i10b 1
+!s100 BB`8Nc`oKGL<PP;D1jUo<3
+R1
+Iee64hBZUZN^QcJ;=lNeH80
+R2
+R0
+w1620194159
+8C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/StopwatchLogic_tb.v
+FC:/Users/lenovo/Desktop/Stopwatch/Stopwatch/StopwatchLogic_tb.v
+!i122 10
+L0 3 110
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/StopwatchLogic_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lenovo/Desktop/Stopwatch/Stopwatch|C:/Users/lenovo/Desktop/Stopwatch/Stopwatch/StopwatchLogic_tb.v|
+!i113 1
+R5
+R6
+R7
+n@stopwatch@logic_tb

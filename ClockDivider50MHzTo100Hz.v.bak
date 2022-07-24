@@ -1,0 +1,7 @@
+module ClockDivider50MHzTo100Hz (
+	input CLK_50_MHz,
+	input reset_n,
+	output reg CLK_100Hz
+);
+
+endmodule
